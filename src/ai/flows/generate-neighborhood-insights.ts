@@ -1,13 +1,5 @@
-// src/ai/flows/generate-neighborhood-insights.ts
-'use server';
 
-/**
- * @fileOverview A flow for generating neighborhood insights based on the neighborhood name.
- *
- * - generateNeighborhoodInsights - A function that generates insights about a given neighborhood.
- * - GenerateNeighborhoodInsightsInput - The input type for the generateNeighborhoodInsights function.
- * - GenerateNeighborhoodInsightsOutput - The return type for the generateNeighborhoodInsights function.
- */
+'use server';
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
